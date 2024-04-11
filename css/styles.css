@@ -1,0 +1,156 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.page-title {
+    color: #FFFF;
+    background:#2E2F42;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.logo { 
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo-span-header {
+    color: #2E2F42;
+}
+
+.nav-link {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover {
+    color: #404BBF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5
+}
+
+.nav-link:focus {
+    color: #404BBF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-link {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-link:hover {
+    color: #404BBF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.address-link:focus {
+    color: #404BBF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.button {
+    cursor: pointer;
+    color: #FFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    background: #4D5AE5;
+}
+
+.button:hover {
+    background: var(--OCEAN, #404BBF);
+}
+
+.button:focus {
+    background: var(--OCEAN, #404BBF);
+}
+
+.section-first {
+    background-color: #2E2F42;
+}
+
+.section-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* Class for header h3 */
+.card-title {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.card-text {
+   letter-spacing: 0.02em;
+}
+
+.section-third {
+    background-color: #F4F4FD;
+}
+
+.ourteam-list {
+    background-color: #FFFFFF;
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+.logo-span-footer {
+    color: #F4F4FD;
+}
