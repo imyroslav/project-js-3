@@ -35,7 +35,7 @@ img {
   position: absolute;
   right: -100px;
   left: -200px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
   
 .film-line {
