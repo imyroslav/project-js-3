@@ -36,24 +36,25 @@ img {
   right: -100px;
   left: -200px;
 }
-  
+
+
 .film-line {
   list-style: none;
   height: 163px;
   display: flex;
-  transform: rotate(16deg);
+  margin-bottom: 20px;
+  /* transform: rotate(16deg); */
 }
   
 .film-element {
   flex-shrink: 0;
   margin-right: 20px; 
-  margin-bottom: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 282px; 
   white-space: nowrap;
-  animation-name: filmLine;
+  /* animation-name: filmLine; */
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
@@ -103,9 +104,10 @@ img {
     min-width: 768px;
   }
 
-  .film-line {
+  /* .film-line { 
     height: 314px;
-  }
+    margin-bottom: 20px;
+  } */
 
   .film-element {
     width: 544px;
@@ -135,6 +137,7 @@ img {
   .content {
     min-width: 1440px;
   }
+
 
   .section-covers {
     min-height: 960px;
